@@ -3,11 +3,15 @@
 /* @var $content string */
 
 use common\assets\CommondAsset;
+use common\assets\CommonVendor;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
 
 CommondAsset::register($this);
+
+use common\assets\CommonVendor;
+CommonVendor::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
