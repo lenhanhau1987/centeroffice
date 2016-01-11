@@ -11,6 +11,7 @@ class CommondAsset extends AssetBundle
     
     public $css = [
         'css/bootstrap.min.css',
+        'css/bootstrap.css',
         'css/font-awesome.min.css',
         'css/ionicons.min.css',
         'css/AdminLTE.min.css',
@@ -20,6 +21,7 @@ class CommondAsset extends AssetBundle
         'css/site.css',
         'css/fullcalendar.css',
         'css/fullcalendar.print.css',
+        'css/calendarDemo.css'
     ];
     
     public $js = [
@@ -32,7 +34,8 @@ class CommondAsset extends AssetBundle
         'js/app.min.js',
         'plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js',
         'js/moment.min.js',
-        'js/fullcalendar.min.js'
+        'js/fullcalendar.min.js',
+        'calendar.js'
     ];
     
     public $depends = [
