@@ -63,7 +63,7 @@ class EventController extends CeController
      */
     public function actionCreate()
     {
-        $model = new event();
+        $model = new eventSearch();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
